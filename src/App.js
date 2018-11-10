@@ -100,7 +100,12 @@ class App extends Component {
         <section>
           <MergeSort array={array} left={0} right={array.length} />
         </section>
-        <footer>⚛ Miroslav Petrik</footer>
+        <footer>
+          ⚛
+          <a href="https://github.com/MiroslavPetrik/react-merge-sort">
+            Miroslav Petrik
+          </a>
+        </footer>
       </>
     );
   }
